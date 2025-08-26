@@ -1,0 +1,8 @@
+name=input("Enter your name:")
+age=int(input("Enter your age:"))
+height=float(input("Enter your height:"))
+likes_flower=input("Do you like flower(Yes/No):")
+print("Name:",name, "| Type",type(name))
+print("age:",age, "| Type",type(age))
+print("height:",height, "| Type",type(height))
+print("Likes_flower:",likes_flower, "| Type",type(likes_flower))

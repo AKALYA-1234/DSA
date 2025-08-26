@@ -16,4 +16,4 @@ def printDay():
             print("Friday")
         case 7:
             print("Saturday")
-printDay()
+printDay()   
