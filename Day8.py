@@ -10,7 +10,7 @@ def is_armstrong(num):
         temp //= 10
     return num == total
 
-num = int(input("Enter a number: "))
+num = int(input("Enter a number:"))
 
 if is_armstrong(num):
     print(num, "is an Armstrong Number")
