@@ -16,7 +16,7 @@ def find_gcd(a, b):
 choice = int(input("Enter 1 for Palindrome Check, 2 for GCD/HCF: "))
 
 if choice == 1:
-    num = int(input("Enter a number: "))
+    num = int(input("Enter a number:"))
     if is_palindrome(num):
         print(num, "is a Palindrome")
     else:
