@@ -1,33 +1,17 @@
-#Pattern DSA
-
-#Right Triangle Star Pattern:
-
+#Array:
 n=int(input("Enter the number:"))
-for i in range(1,n+1):
-    for j in range(1,i+1):
-        print("*",end=" ")
-    print()
-    
+arr=[]
+for i in range(n):
+    num=int(input())
+    arr.append(num)
+print(arr)
+print(sum(arr))
 
-#Inverted Triangle:
-n=int(input("Enter the number:"))
-for i in range(n,0,-1):
-    for j in range(1,i+1):
-        print("*",end=" ")
-    print()
-
-#Number pattern:
-
-n=int(input("Enter the number:"))
-for i in range(1,n+1):
-    for j in range(1,i+1):
-        print(j,end=" ")
-    print()
-
-#Inverted Number pattern:
-
-n=int(input("Enter the number:"))
-for i in range(n,0,-1):
-    for j in range(1,i+1):
-        print(j,end=" ")
-    print()
+#String:
+a=input("Enter a string:")
+vowels="aeiou"
+count=0
+for ch in a:
+    if ch in vowels:
+        count+=1
+print("Total Vowels:",count)

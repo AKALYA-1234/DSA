@@ -1,6 +1,9 @@
-#Check if a string is palindrome or not
+#Print N to 1 using recursion
+def print_n_to_1(n):
+    if n==0:
+        return
+    print(n)
+    print_n_to_1(n-1)
 
-str=input("Enter the string:")
-rev=str[::-1]
-print("Original String:",str)
-print("Reversed String:",rev)
+n=int(input("Enter the number:"))
+print_n_to_1(n)

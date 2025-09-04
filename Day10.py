@@ -1,13 +1,16 @@
-num=int(input("Enter the number:"))
-flag=1
-for i in range (2,num):
-    if(num%i==0):
-        flag=0
-        break
-    else:
-        flag=1
+#Count digits & Reverse the number:
 
-if(flag==1):
-    print(f"{num} is a prime number.")
-else:
-    print(f"{num} is not a prime number.")
+n=int(input("Enter the number:"))
+count=0
+temp=n
+while temp>0:
+    count+=1
+    temp//=10
+print(count)
+rev=0
+temp=n
+while temp>0:
+    digit=temp%10
+    rev=rev*10+digit
+    temp//=10
+print("Revesed Number:",rev)

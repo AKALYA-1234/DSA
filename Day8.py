@@ -1,18 +1,23 @@
-#Cheak palindrome
+#Pass by Value
+def change_number(x):
+    x = x + 5
+    print("Inside function:", x)
 
-def is_armstrong(num):
-    temp = num
-    digits = len(str(num)) 
-    total = 0
-    while temp > 0:
-        digit = temp % 10
-        total += digit ** digits
-        temp //= 10
-    return num == total
+num = int(input("Enter a number: "))
+change_number(num)
+print("Outside function:", num)
 
-num = int(input("Enter a number:"))
+#Pass by Reference
+def change_list(lst):
+    lst.append(100)
+    print("Inside function:", lst)
 
-if is_armstrong(num):
-    print(num, "is an Armstrong Number")
-else:
-    print(num, "is NOT an Armstrong Number")
+numbers = []
+n = int(input("How many numbers? "))
+
+for i in range(n):
+    val = int(input(f"Enter number {i+1}: "))
+    numbers.append(val)
+
+change_list(numbers)
+print("Outside function:", numbers)

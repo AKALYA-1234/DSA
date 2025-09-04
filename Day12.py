@@ -1,9 +1,18 @@
-#Print N to 1 using recursion
-def print_n_to_1(n):
-    if n==0:
-        return
-    print(n)
-    print_n_to_1(n-1)
+#Cheak palindrome
 
-n=int(input("Enter the number:"))
-print_n_to_1(n)
+def is_armstrong(num):
+    temp = num
+    digits = len(str(num)) 
+    total = 0
+    while temp > 0:
+        digit = temp % 10
+        total += digit ** digits
+        temp //= 10
+    return num == total
+
+num = int(input("Enter a number:"))
+
+if is_armstrong(num):
+    print(num, "is an Armstrong Number")
+else:
+    print(num, "is NOT an Armstrong Number")
