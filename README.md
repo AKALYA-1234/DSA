@@ -43,3 +43,22 @@ DSA:
 
 21.Fibonacci Number
 
+22.Happy number check
+
+23.Counting frequencies of array elements
+
+24.Find the highest/lowest frequency element
+
+25.Selection Sort
+
+26.Bubble Sort
+
+27.Insertion Sort
+
+28.Merge Sort
+
+29.Recursive Bubble Sort
+
+30.Quick Sort
+
+
