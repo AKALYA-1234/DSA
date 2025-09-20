@@ -1,4 +1,5 @@
 #print Day
+
 def printDay():
     day=int(input())
     match day:

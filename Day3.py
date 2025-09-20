@@ -1,4 +1,5 @@
 #print Grade
+
 def printGrade():
  a=int(input())
  if(a>=90):

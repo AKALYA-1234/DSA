@@ -1,4 +1,5 @@
 # Sum of first n natural numbers using while loop
+
 n = int(input("Enter the number: "))
 i = 1
 total = 0

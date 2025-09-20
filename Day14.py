@@ -1,3 +1,5 @@
+#check if the number is prime or not
+
 num=int(input("Enter the number:"))
 flag=1
 for i in range (2,num):

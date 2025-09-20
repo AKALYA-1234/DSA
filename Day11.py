@@ -1,4 +1,5 @@
 #Check Palindrome & GCD Or HCF
+
 import math
 def is_palindrome(n):
     temp = n

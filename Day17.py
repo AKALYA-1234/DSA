@@ -1,6 +1,7 @@
 #Sum of first N numbers
+
 sum=0
 n=int(input("Enter the number:"))
 for i in range(1,n+1):
     sum+=i
-print(sum)
+print("Sum of the number:",sum)
